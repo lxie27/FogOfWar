@@ -5,7 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/HappyHarvest/Scenes/MainMenu.unity
+    guid: 4b160fdf6533d5c469973189e95deede
+  - enabled: 0
+    path: Assets/HappyHarvest/Scenes/Loader.unity
+    guid: 0c2d1b63d68b6084db7a03527005683a
+  - enabled: 0
+    path: Assets/HappyHarvest/Scenes/Farm_Outdoor.unity
+    guid: db7f147af7c21465ca337bc126944569
+  - enabled: 0
+    path: Assets/HappyHarvest/Scenes/House_Interior.unity
+    guid: 5eae6d8f741dc624395c4cd2e57cab18
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Preloader.unity
+    guid: c1357e87648843b44888a3a37ac8d835
+  - enabled: 0
+    path: Assets/Scenes/LocalServer.unity
+    guid: 11ce54ab0efac27439b9d1981125c484
+  - enabled: 0
+    path: Assets/Scenes/HeadlessServer.unity
+    guid: f0b75562d7af9894a8baa88aa1efe9af
+  - enabled: 1
+    path: Assets/Scenes/ClientOnlyLoader.unity
+    guid: 221baf309d58221469e6f6f755de9008
+  - enabled: 1
+    path: Assets/Scenes/ClientOnly.unity
+    guid: cc70f1559e8ee8e4c9b17d0cd9476bb0
   m_configObjects: {}

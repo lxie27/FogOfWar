@@ -1,0 +1,14 @@
+mergeInto(LibraryManager.library, {
+
+    SendLagAmount: function (lagAmount) {
+        var parsedLagAmount = parseFloat(lagAmount);
+
+        try {
+            firebase.database().ref(parsedLagAmount).once('value').then(function(snapshot) {
+                unityInstance.Module.SendMessage("Server", "OnLagValueChanged", parseFloat(snapshot.val()).toString());
+            });
+        } catch (error) {
+            console.error("Error sending lag amount to Unity:", error);
+        }
+    }
+});
